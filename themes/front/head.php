@@ -106,6 +106,9 @@
         border: 2px solid #fff;
         border-radius: 50%;
     }
+    body{
+     padding-top: 3%;   
+    }
 
     .custom-body {
         background-image: url('<?php echo base_url(); ?>assets/img/background3.png') !important; 
@@ -116,3 +119,5 @@
     }
 
 </style>
+<!--      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>-->

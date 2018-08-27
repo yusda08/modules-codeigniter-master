@@ -21,6 +21,7 @@
                 <li class=""><?php echo anchor('', 'Text') ?></li>
             </ul>
         </li>
+        <li class=""><?php echo anchor('frontend/rekening/Belanja', 'Rekening Belanja') ?></li>
     </ul>
 </div>
 <div class="navbar-custom-menu">

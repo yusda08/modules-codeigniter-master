@@ -4,7 +4,7 @@
         <?= $head; ?>
     </head>
     <!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->
-    <body class="hold-transition skin-blue fixed sidebar-mini layout-top-nav">
+    <body class="hold-transition skin-blue sidebar-mini layout-top-nav">
         <div class="wrapper">
             <header class="main-header ">
                 <nav class="navbar nav-scroller navbar-fixed-top navbar-static-top" style="background-color: #000;">

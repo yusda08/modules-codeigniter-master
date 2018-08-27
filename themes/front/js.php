@@ -76,8 +76,7 @@
                     //"scrollX": true
         });
     });
-</script>   
-<script>
+
     $(document).ready(function () {
         $("#flip").click(function () {
             $("#panel").slideToggle("slow");
@@ -110,8 +109,6 @@
         // Format tahun pelajaran.
         $('.tapel').mask('0000/0000');
     })
-</script>
-<script type="text/javascript">
     setTimeout(function () {
         $('#notiv').fadeOut('slow');
     }, 4000);
@@ -135,4 +132,25 @@
                 maxHeight = Math.max.apply(null, heights);
         $(".max").height(maxHeight);
     });
+
+    function datatable(url) {
+        $('.tabel_ajax').DataTable({
+            "processing": true, //Feature control the processing indicator.
+            "serverSide": true, //Feature control DataTables' server-side processing mode.
+            'pageLength': 10,
+            "lengthChange": true,
+            "searching": true,
+            "info": true,
+            "autoWidth": true,
+            "ordering": false,
+            "stateSave": true,
+            "language": {
+                processing: '<i class="fa fa-spinner fa-spin fa-3x fa-fw"></i> Hadangi Dulu...'
+            },
+            "ajax": {
+                "url": url,
+                "type": "GET"
+            },
+        });
+    }
 </script>
