@@ -20,7 +20,6 @@ echo $javasc;
                             </thead>
                             <tbody>
                             </tbody>
-
                         </table>
                     </div>
                 </div>
